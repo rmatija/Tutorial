@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header>
+	   <a href="index.htm" id="logo">
+			<h1>rmatija - HTML</h1>
+	   </a>
+	   <nav class="menu">
+	   	<ul>
+	   		<li><a href="index.htm"> Home</a> </li>
+	   		<li><a href="vocabulary.html"> Vocabulary</a> </li>
+	   		<li><a href="shortcuts.html"> Shortcuts</a> </li>
+			<li><a href="html_elements.html"> HTML Elements</a> </li>
+			<li><a href="css_properties.html"> CSS Properties</a></li>
+			<li><a href="css_selectors.html" class="selected"> CSS Selectors</a></li>
+			<li><a href="css_elements.html"> CSS Elements</a></li>
+			<li><a href="css_syntax.html"> CSS syntax</a></li>
+            <li><a href="images.html"> Images</a> </li>
+            <li><a href="links.html"> Links</a> </li>
+            <li><a href="general_information.html"> General information</a> </li>            
+	   	</ul>
+	   </nav>
+	</header>
+	<div id="sav_tekst_na_stranici">
+	<section>
+		<h4>CSS Selectors</h4>
+			<ul>
+				<li>Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering over a link, for example.</li>
+				<li>Focus pseudo-class - used when we use keybord for moving around the page. The :focus selector is allowed on elements that accept keyboard events or other user inputs.</li>
+				<li>
+					:nth-child(An+B) - The nth-child pseudo-class matches A(n)+B-1 siblings in the document tree. The A value that precedes n is required. By itself, this will match every "nth" element in a group. Both A and B must be integers.<br>
+					<p>Code Correction<br>
+					In this video, the selector :nth-child(4n) is used to correct a responsive issue on every 4th item. In other words, this will select the 4th item, 8th item, 12th item, and so on. This fixes the specific problem in the video, but if more gallery items are added beyond the 5 that are present in this project, the design will start to break again. That's because there are 3 items in each row, and every 4th item could appear at the beginning, middle, or end of a row.<br>
+					Instead, we want to select the first item in each row. A more robust solution is to use the selector :nth-child(3n + 1) instead. This will select every 3rd item plus 1. In other words, this will select the 4th item, 7th item, 10th item, and so on.</p>
+				</li>
+				<li>Universal-selector - the &ast; selector selects all elements and styles them</li>
+				<li>Type selectors  - they target element types on the page. They’re also called element selectors because we use the element’s HTML tag as the selector.</li>
+				<li>ID selector - the #id selector styles the element with the specified id.</li>
+				<li>Class selector - class selectors let us target elements based on their class attribute. The main difference between a class and an ID selector is that IDs are unique and they’re used to identify one element on the page, whereas a class can target more than one element.</li>
+				<li>Attribute selectors  - select an element using the presence of a given attribute or attribute value. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"> More details on this link</a></li>
+			</ul>
+	</section>
+   </div>
+  	<footer>
+        <a href="https://www.facebook.com/"><img src="_img/facebook-wrap.png" alt="Facebook logo" class="social-icon"> </a> 
+        <a href="https://twitter.com/"> <img src="_img/twitter-wrap.png" alt="Twitter logo" class="social-icon"> </a>
+    	<p>&copy; | 2017 rmatija </p>
+	</footer>
+</body>
+</html>

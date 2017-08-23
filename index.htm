@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HTML</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+	<header>
+	   <a href="index.htm" id="logo">
+			<h1>rmatija - HTML</h1>
+	   </a>
+	   <nav class="menu">
+	   	<ul>
+	   		<li><a href="index.htm" class="selected"> Home</a> </li>
+	   		<li><a href="vocabulary.html"> Vocabulary</a></li>
+	   		<li><a href="shortcuts.html"> Shortcuts</a> </li>
+			<li><a href="html_elements.html"> HTML Elements</a> </li>
+			<li><a href="css_properties.html"> CSS Properties</a></li>
+			<li><a href="css_selectors.html"> CSS Selectors</a></li>
+			<li><a href="css_elements.html"> CSS Elements</a></li>
+			<li><a href="css_syntax.html"> CSS syntax</a></li>
+			<li><a href="images.html"> Images</a> </li>
+			<li><a href="links.html"> Links</a> </li>
+			<li><a href="general_information.html"> General information</a> </li>
+	   	</ul>
+	   </nav>
+	</header>
+   <div id="sav_tekst_na_stranici">
+	 <section>
+		<h4>Vocabulary</h4>
+			<ul>
+			<li>HTML5 - New HTML elements that are now commonplace along with a few new pieces of browser technology.</li>
+			<li>Attributes - Attributes are extra information inside of an HTML element that provides additional data about the element.</li>
+			<li>Code Completion - A feature of text editors (like Workspaces) that automatically completes code as you type.</li>
+			<li>HTML Entity - Special characters in HTML, such as the copyright symbol.</li>
+            <li>Relative Path - Describes the location of a file using a partial file path that's based on the location of the original file relative to the file that's being referenced.</li>
+            <li>Absolute Path - Describes the location of a file using the full file path.</li>
+            <li>Mobile First - The technique of creating mobile websites first and then progressively enhancing them to create the desktop version.</li>
+            <li>Block-Level Elements - Block elements occupy the width of their containers and generally include a line break before and after the element.</li>
+			<li>Inline Elements - Inline elements occupy the width of their contents and do not begin a new line when formatted as text.</li>
+			</ul>
+	</section>
+	<section>
+	 	<h4>Shortcuts</h4>
+			<ul>
+				<li>Cut - CTRL + X (Windows)</li>
+				<li>Paste - CTRL + V (Windows)</li>
+				<li>Move Across Text - 	CTRL + Arrow Key (Windows)</li>
+				<li>Highlight Text - CTRL + Shift + Arrow Key (Windows)</li>
+				<li>Goback one step - CTRL + Z</li>
+			</ul>
+	</section>
+	<section>
+		<h4>HTML Elements</h4>
+			<ul>
+				<li>&lt;!DOCTYPE html&gt; - The document type element tells the browser what kind of content to expect in a web page.</li>
+				<li>&lt;html&gt; - The container or document root for the HTML document.</li>
+				<li>&lt;head&gt; - The head of the document is a container for meta information about the HTML document itself.</li>
+				<li>&lt;body&gt; - The body of the document contains the content and remaining structure of the document.</li>
+				<li>&lt;title&gt; - The title of the document typically appears in browser tabs and search engine results.</li>
+				<li>&lt;meta charset="utf-8"&gt; - The character set, typically set to UTF-8 to help describe how the page is formatted.</li>
+				<li>&lt;header&gt; - The header element helps to structure the content. This is different from the head element, which is just for document metadata.</li>
+				<li>&lt;section&gt; - Sections break up logical groupings of information, just like sections of a newspaper.</li>
+				<li>&lt;footer&gt; - The footer element is a complement to the header element. It represents the bottom of a content area.</li>
+				<li>&lt;h2&gt; - The second level headline element, similar to first level headlines. Typically these appear slightly smaller by default.</li>
+				<li>&lt;p&gt; - The paragraph element should contain text in sentence or paragraph form.</li>
+				<li>&lt;a&gt; - The anchor element allows for two HTML pages to be linked together. It defines a hyperlink, which is used to link from one page to another. The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination.</li>
+				<li>&lt;av&gt; - The navigation element is a semantic element that wraps any type of site navigation.</li>
+				<li>&lt;ul&gt; - The unordered list element contains list item elements and is typically styled with bullet points by default.</li>
+				<li>&lt;li&gt; - The list item element makes it possible to format text in a list form. Each list item element should go inside of an ordered or unordered list element.</li>
+                <li>&lt;img&gt; - The image element is a self closing element with two required attributes. The source (src) attribute points to the image file and the alternate (alt) attribute describes the image using text.</li>
+                <li>&lt;link&gt; - The link element connects other files to an HTML document, such as CSS or JavaScript files.</li>
+                <li>The &lt;div&gt; tag defines a division or a section in an HTML document. It is used to group block-elements to format them with CSS.</li>
+			</ul>
+	</section>
+	<section>
+		<h4>CSS Properties</h4>
+			<ul>
+				<li>max-width - Sets the maximum width of an element. Accepts any CSS length unit.</li>
+				<li>margin - Sets the space around the exterior four sides of an element. Accepts any CSS length unit.</li>
+				<li>padding - Sets the space on the interior four sides of an element. Also make clickable space larger if needed. Accepts any CSS length unit.</li>
+				<li>text-align - Sets the justification of text, similar to a word processor. For example, text can be set to be aligned to the left, right, or center.</li>
+				<li>font-family - Defines which fonts should be applied to text.</li>
+				<li>font-size - Sets the size of text in either relative or absolute units.</li>
+				<li>font-weight - Sets the visual weight of text, which is more commonly known as "bold" as is the case in word processors.</li>
+				<li>line-height - Set the amount of space between each line of text. Accepts any CSS length unit.</li>
+				<li>list-style - Sets the style of numbers or bullet points for ordered and unordered lists. The marks can also be removed entirely with the value "none".</li>
+				<li>float - Allows an element to be taken out of the normal flow and placed to the left or right of its container. Text and other inline elements will wrap around it.</li>
+				<li>display - Sets whether an element should be rendered as a block element, inline element, or inline-block element.</li>
+			</ul>
+	</section>
+	<section>
+		<h4>CSS Selectors</h4>
+			<ul>
+				<li>Pseudo-Class - Dynamic selectors that change based on user interaction with the browser, such as hovering over a link, for example.</li>
+			</ul>
+	</section>
+	<section>
+		<h4>CSS elements</h4>
+			<ul>
+				<li></li>
+			</ul>
+	</section>
+	<section>
+		<h4>Links</h4>
+			<a href="https://dev.w3.org/html5/html-author/charref"> List of character entities - lista simbola</a><br>
+			<a href="https://fonts.google.com/"> A 3rd party font service from Google that provides a large library of fonts that are legitmately licensed. All of the fonts are available for free.</a>
+	</section>
+	<section>
+        <h4>Images</h4>
+        	<ul id="gallery">
+          		<li>
+          		   <a href="_img/img_example.jpg">
+          				<img src="_img/img_example.jpg" alt="Image coding">
+		           			 <p>Image coding</p>
+		            </a>
+		        </li>	           		
+           		<li>
+           		   <a href="_img/cold-snow-forest-trees.jpeg">           		   
+           		   		<img src="_img/cold-snow-forest-trees.jpeg" alt="Snow outside">
+          		   			 <p>Snow in the nature</p>
+          		    </a>
+           		</li>
+           		<li>
+           			<a href="_img/reethi-beach-resort.jpg">
+           		  		<img src="_img/reethi-beach-resort.jpg" alt="Beach">
+           					<p>Sand and sky</p>
+           			</a>
+           		</li>
+           	</ul>
+    </section>
+  </div>
+   	<footer>
+   		<a href="https://www.facebook.com/"><img src="_img/facebook-wrap.png" alt="Facebook logo" class="social-icon"> </a> 
+        <a href="https://twitter.com/"> <img src="_img/twitter-wrap.png" alt="Twitter logo" class="social-icon"> </a>
+        <p>&copy; | 2017 rmatija </p>
+	</footer>
+</body>
+</html>
