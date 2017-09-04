@@ -178,6 +178,17 @@ MEDIA QUERIES
   #sav_tekst_na_stranici,
   #logo {
     width: 100%; } }
+
+@media(min-width:320px) and (max-width:568px){
+  .menu ul{
+    display:none;
+    }
+  }
+
+  @media(min-width:568px){
+    .menu select, .menu button {
+    display:none;}
+  }
 /**********************************************
 COLORS
 **********************************************/
